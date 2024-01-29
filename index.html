@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4b63fc8b98.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="hero-image">
+                <video autoplay muted loop id="video-background">
+                  <source src="images/video_2023.mp4" type="video/mp4">
+                </video>
+          </div>
+       </div>
+            <div class="header-text">
+                   
+                <h1>Hi,<br> I'm <span>Alaleh</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/picture.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1> 
+                    <br>
+                    <p style="text-align: justify;">As a passionate and experienced web designer and 
+                        developer with a strong background in UX/UI, I bring creativity and technical 
+                        proficiency to every project I undertake. My commitment is to
+                         deliver not just visually stunning websites but also ensure seamless 
+                         user experiences.I believe in the power of aesthetics. Each design is a 
+                         blend of innovation and functionality, creating visually appealing interfaces 
+                         that leave a lasting impression.
+                         My development skills complement my design finesse. Proficient in HTML, CSS, 
+                         JavaScript, and more, I bring concepts to life with clean, efficient, and responsive 
+                         code.Understanding the user is at the core of my design philosophy. I focus on creating
+                          interfaces that are intuitive, user-friendly, and elevate the overall digital experience.
+                         My goal is to exceed expectations, delivering solutions that drive tangible results
+                         for clients.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience_tab')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- -----skills------- -->
+                    <div class="tab-contents" id="skills">
+                        <ul> 
+                            <li><span>Web Design</span></li>
+                            <li><span>Web Development</span></li>
+                            <li><span>UX UI Design</span></li>
+                            <li><span>WordPress</span></li>
+                        </ul>
+                    </div>
+                    <!-- -----------experience--------- -->
+                        <div class="tab-contents" id="experience_tab">
+                            <div class="experience">
+                                <div class="column">
+                                  <p class="label">Role:</p>
+                                  <br>
+                                  <p class="content"><b>Web UX UI designer </b></p>
+                                </div>
+                                <div class="column">
+                                  <p class="label">Responsibilities:</p>
+                                  <br>
+                                  <p class="content">• Planned and executed moderated and unmoderated usability studied to evaluated
+                                    and refine the main user flow of the website, incorporating valuable feedback.<br>
+                                    • Developed clickable prototype using Figma, implementing usability testing and A/B
+                                    testing with potential users.<br>
+                                    • Executed user experience research, including interviews and survey development, to
+                                    identify and understand potential users.<br>
+                                    • Conducted in-depth analysis of clients’ business need, defining problems, and
+                                    delivering data driven solutions.</p><br>
+                                </div>
+                                <div class="column">
+                                  <p class="label">Date:</p>
+                                  <br>
+                                  <p class="content">January 2021 - Present</p>
+                                </div>
+                              </div>
+                            </div>
+                    <!-- -------------education----------- -->
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>Web Design & Development Certificate</span><br>CDI College</li>
+                            <li>2022 - 2024</li>
+                            <li><span>UX|UI Design Certificate</span><br>UXLand School</li>
+                            <li>2021</li>
+                            <li><span>University Of Montreal Certificate</span><br>French Language</li>
+                            <li>2014 - 2015</li>
+                            <li><span>Bachelor of Arts in French Language</span><br>Tehran Azad University</li>
+                            <li>2003 - 2007</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------Projects-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Web Design & Development Projects</h1>
+            <div class="services-list">
+               
+                <div>
+                    <h2>Fauget Restaurant </h2>
+                    <p>Designed & Developed a website: Showcasing Sushi Delights with Sketch, HTML, CSS, JavaScript, jQuery, Animation, Masonry, XML, JSON, API, and PHP</p>
+                    <a href="https://alaleh-kash.github.io/Fauget-restaurant/">Learn more</a>
+                </div>
+                <div>
+                    <h2>Aritzia</h2>
+                    <p>Designed and developed a modern E-commerce home page using HTML, CSS, JavaScript</p>
+                    <a href="https://alaleh-kash.github.io/Aritzia/">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Guess Number</h2>
+                    <p>Guess My Number Game: Interactive Web Experience with HTML, CSS, and JavaScript</p>
+                    <a href="https://alaleh-kash.github.io/Guess-My-Number/">Learn more</a>
+                </div>
+                <div>
+                    <h2>ALDO</h2>
+                    <p>Designed and developed a home page using HTML, CSS, JavaScript</p>
+                    <a href="https://alaleh-kash.github.io/Aldo/">Learn more</a>
+                </div>
+            
+               
+                <div>
+                    <h2>Brush</h2>
+                    <p>Designed and developed a home page using  Sketch, Wireframe, Prototype, HTML, CSS, Java Script, Carousel Slick, Animation, Fancy box, Panzoom.</p>
+                    <a href="https://alaleh-kash.github.io/Brush-homepage/">Learn more</a>
+                </div>
+                <div>
+                    <h2>Responsive Mobile integration</h2>
+                    <p>Designed and developed a responsive landing page using HTML, CSS, JavaScript</p>
+                    <a href="https://alaleh-kash.github.io/Mobile_integration/">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Drum Kit</h2>
+                    <p>Designed and developed a website using HTML, CSS, JavaScript</p>
+                    <a href="https://alaleh-kash.github.io/Drum-Kit/">Learn more</a>
+                </div>
+                <div>
+                    <h2>Beauty Skincare</h2>
+                    <p>Designed and developed a home page using  HTML, CSS, Java Script.</p>
+                    <a href="https://alaleh-kash.github.io/Skincare-Website/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">UX UI Projects</h1>
+            <div class="services-list">
+               
+                <div>
+                    <h2>Time Tracking App </h2>
+                    <p>Designed a user interface (UI) and user experience (UX) for the "Time Tracking App" using Figma, a collaborative design tool.</p>
+                    <a href="https://uxfol.io/p/2149da3f/022339a8">Learn more</a>
+                </div>
+                <div>
+                    <h2>Liancha Herbal Tea</h2>
+                    <p>Designed a user experience (UX) and user interface (UI) for an adaptive 
+                        sustainable website "Herbal Tea" using Figma, a collaborative design tool.</p>
+                    <a href="https://uxfol.io/p/2149da3f/0357e0b1">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Lavender</h2>
+                    <p>Designed a user experience (UX) and user interface (UI) for an adaptive 
+                        sustainable website "Lavender" using Figma, a collaborative design tool.</p>
+                    <a href="https://uxfol.io/p/2149da3f/0306eb73">Learn more</a>
+                </div>
+                <div>
+                    <h2>KidsTalk App</h2>
+                    <p>Designed a user interface (UI) and user experience (UX) an application for kids "KidsTalk" using Figma, a collaborative design tool.</p>
+                    <a href="https://uxfol.io/p/2149da3f/03102956">Learn more</a>
+                </div>
+                <div>
+                    <h2>ToyShare App</h2>
+                    <p>Designed a user interface (UI) and user experience (UX) an application for kids "ToyShare" using Figma, a collaborative design tool.</p>
+                    <a href="https://uxfol.io/p/2149da3f/0306eb7b">Learn more</a>
+                </div>
+                <div>
+                    <h2>Redesign MTL Cupcake</h2>
+                    <p>Redesigned a user interface (UI) and user experience (UX) for MTL "Cupcake" using Figma, a collaborative design tool.</p>
+                    <a href="https://uxfol.io/p/2149da3f/0226913b">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- --------contact----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> alaleh.kashani34@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +1 (514)-(581)-(4505)</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/alaleh-kashani"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/Resume.pdf" download="" class="btn btn2">Dowmload Resume</a>
+                </div>
+                <div class="contact-right">
+                   
+                    <form id="contactForm" action="send_message.php" method="POST">
+                        <label for="name">Your Name:</label><br>
+                        <input type="text" id="name" name="name" required><br><br>
+                    
+                        <label for="email">Your Email:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+                    
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                    
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Developed by Alaleh <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <!-- -------javascript--------------- -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script> 
+<!-- Side menu java script code -->
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+<!-- Script for contact form -->
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+        event.preventDefault(); 
+        var formData = new FormData(this);
+        fetch("send_message.php", {
+            method: "POST",
+            body: formData
+        })
+        .then(response => {
+            if (response.ok) {
+                return response.text(); 
+            }
+            throw new Error("Network response was not ok.");
+        })
+        .then(data => {
+            alert(data); 
+        })
+        .catch(error => {
+            console.error("There was a problem with the fetch operation:", error);
+            alert("Failed to send message. Please try again later.");
+        });
+    });
+    </script>
+</body>
+</html>
